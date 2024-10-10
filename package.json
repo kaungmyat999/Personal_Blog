@@ -10,8 +10,5 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "devDependencies": {
-    "eslint": "^9.10.0"
   }
 }
