@@ -6,7 +6,7 @@ import fs from 'fs';
 import path from 'path';
 import Certification from "../components/Certification";
 import Projects from "../components/Projects";
-
+import Education from '../components/Education'
 
 export default function Blog({certs,pjs}) {
     
@@ -41,6 +41,9 @@ export default function Blog({certs,pjs}) {
             
           </div>
           
+        </div>
+        <div className="sections">
+          <Education />
         </div>
         <div className="sections">
           <Projects pjs={pjs}/>

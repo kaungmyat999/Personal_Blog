@@ -315,6 +315,12 @@ footer {
 		box-shadow:12px 12px 1px rgba(13, 255, 0, 0.8);
 	}
 
+	.edu{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	
+	}
 	
 }
 
@@ -336,4 +342,29 @@ footer {
 	.box{
 		width: 40%;
 	}
+}
+
+
+/* Education */
+
+
+.edu{
+	display: flex;
+	align-items: flex-start;
+	justify-content: start;
+
+}
+
+.edu_logo{
+	padding-top: 20px;
+}
+.edu_text{
+	margin-left: 20px;
+}
+.edu_name{
+	line-height: 20px;
+}
+.edu_institute{
+	color: #00FF55;
+	line-height: 30px;
 }
